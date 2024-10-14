@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_role_cards",
+  "info": {
+    "displayName": "Role Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icons": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "roles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.phill"
+    }
+  }
+}
